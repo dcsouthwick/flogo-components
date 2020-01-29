@@ -5,7 +5,7 @@ This function package exposes common number related functions.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/dcsouthwick/flog-components/functions/time
+flogo install github.com/dcsouthwick/flogo-components/functions/time
 ```
 
 ## Now()

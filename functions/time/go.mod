@@ -1,4 +1,4 @@
-module github.com/dcsouthwick/flogo-components/function/timestamp
+module github.com/dcsouthwick/flogo-components/function/time
 
 go 1.12
 

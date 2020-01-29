@@ -1,6 +1,6 @@
 module github.com/dcsouthwick/flogo-components/functions/time
 
-go 1.12
+go 1.13
 
 require (
 	github.com/project-flogo/core v0.10.1

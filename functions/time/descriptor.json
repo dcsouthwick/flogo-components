@@ -10,6 +10,7 @@
         "description":"import Go time library",
         "example":"start := time.Now()\noperation that takes 20 milliseconds\nend := time.Now()\nelapsed := t.Sub(start)",
         "varargs": false,
+        "args": [],
         "return": {
             "type":"int64"
         },

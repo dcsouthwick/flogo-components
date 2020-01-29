@@ -1,4 +1,4 @@
-module github.com/dcsouthwick/flogo-components/function/time
+module github.com/dcsouthwick/flogo-components/functions/time
 
 go 1.12
 

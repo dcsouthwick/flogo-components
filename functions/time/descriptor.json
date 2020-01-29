@@ -1,0 +1,21 @@
+{
+    "name":"time",
+    "type":"flogo:function",
+    "version":"0.0.1",
+    "title":"Time Functions",
+    "description":"Time Functions",
+    "functions": [
+        {
+        "name":"time",
+        "description":"import Go time library",
+        "example":"start := time.Now()\noperation that takes 20 milliseconds\nend := time.Now()\nelapsed := t.Sub(start)",
+        "varargs": false,
+        "return": {
+            "type":"int64"
+        },
+        "display": {
+            "visible": true
+            }
+        }
+    ]
+}

@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-var in = &fnNow{}
+var in = &fnnow{}
 
 func init() {
 	function.ResolveAliases()

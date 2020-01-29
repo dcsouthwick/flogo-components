@@ -7,20 +7,20 @@ import (
 )
 
 func init() {
-	_ = function.Register(&fnNow{})
+	_ = function.Register(&fnnow{})
 }
 
-type fnNow struct {
+type fnnow struct {
 }
 
-func (fnNow) Name() string {
+func (fnnow) Name() string {
 	return "now"
 }
 
-func (fnNow) Sig() (paramTypes []data.Type, isVariadic bool) {
+func (fnnow) Sig() (paramTypes []data.Type, isVariadic bool) {
 	return []data.Type{data.TypeInt64}, true
 }
 
-func (fnNow) Eval(params ...interface{}) (interface{}, error) {
+func (fnnow) Eval(params ...interface{}) (interface{}, error) {
 	return time.Now().Unix(), nil
 }

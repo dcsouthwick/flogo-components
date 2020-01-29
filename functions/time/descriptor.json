@@ -6,17 +6,14 @@
     "description":"Time Functions",
     "functions": [
         {
-        "name":"Now",
+        "name":"now",
         "description":"Current UNIX timestamp",
-        "example":"start := time.Now()\noperation that takes 20 milliseconds\nend := time.Now()\nelapsed := t.Sub(start)",
+        "example":"start := time.now()\noperation that takes 20 milliseconds\nend := time.now()\nelapsed := t.Sub(start)",
         "varargs": false,
         "args": [],
         "return": {
             "type":"int64"
-        },
-        "display": {
-            "visible": true
-            }
+        }
         }
     ]
 }
